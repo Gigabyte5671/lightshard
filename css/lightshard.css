@@ -222,7 +222,7 @@ section{
   transition: 0.2s ease all;
 }
 .external_link:hover{
-  border: 1px solid var(--ls_lightblue);
+  border: 1px solid white;
 }
 .external_link img{
   margin: 0px 6px 0px 0px;
@@ -282,7 +282,7 @@ section{
   transition: 0.2s ease all;
 }
 .internal_link:hover{
-  border: 1px solid var(--ls_lightblue);
+  border: 1px solid white;
 }
 .internal_link img{
   margin: 0px 6px 0px 0px;
