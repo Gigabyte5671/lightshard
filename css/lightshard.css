@@ -186,7 +186,7 @@ main{
   flex-direction: column;
   width: 100%;
   margin: calc(var(--ls_nav_height) + 5px) 3px 5px 3px;
-  padding: 10px;
+  padding: 15px 10px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   overflow: hidden;
