@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lightshard CSS</title>
+    <meta property="og:title" content="Lightshard CSS">
+    <meta property="og:site_name" content="Lightshard CSS">
+    <meta name="description" content="">
+    <meta property="og:description" content="">
+    <meta name="author" content="Gigabyte5671">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="site_cover.webp">
+    <meta name="twitter:image:alt" content="site cover image">
+    <meta property="og:url" content="">
+    <meta name="theme-color" content="#4C69FF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lightshard.css">
+    <link rel="shortcut icon" href="">
+  </head>
+  
+  <body>
+    <nav>
+      <background></background>
+      <site_logo><site_logo_image></site_logo_image><p>Lightshard&nbsp;CSS</p></site_logo>
+      <navlinks>
+        <a href="#text" class="active" onclick="navlinks(event)"><p>Text</p></a>
+        <a href="#global_elements" onclick="navlinks(event)"><p>Global Elems</p></a>
+        <a href="#buttons" onclick="navlinks(event)"><p>Buttons</p></a>
+      </navlinks>
+    </nav>
+    
+    
+    <main>
+      <background></background>
+
+      <section>
+        <h1>Text</h1>
+        <p>Cillum et amet officia sunt minim non excepteur exercitation irure voluptate labore sunt. Exercitation sunt cupidatat occaecat culpa sint labore elit quis id sint pariatur. Do dolore Lorem tempor ullamco quis pariatur et aliqua duis magna.</p>
+      </section>
+
+      <section>
+        <h1>Global Elements</h1>
+        <p>Cillum et amet officia sunt minim non excepteur exercitation irure voluptate labore sunt. Exercitation sunt cupidatat occaecat culpa sint labore elit quis id sint pariatur. Do dolore Lorem tempor ullamco quis pariatur et aliqua duis magna.</p>
+      </section>
+
+      <section>
+        <h1>Buttons</h1>
+        <p></p>
+        <navlinks id="navlinksDemo">
+          <a href="#buttons" class="active" onclick="navlinksDemo(event)"><p>Nav Link 1</p></a>
+          <a href="#buttons" onclick="navlinksDemo(event)"><p>Nav Link 2</p></a>
+          <a href="#buttons" onclick="navlinksDemo(event)"><p>Nav Link 3</p></a>
+        </navlinks>
+        <p></p>
+        <button class="internal_link"><span></span><p>Internal Link</p></button>
+        <p></p>
+        <button class="external_link"><img src="assets/icons/image_white_24dp.svg" draggable="false"><p>External Link</p><span></span></button>
+      </section>
+    </main>
+
+
+    <footer>
+      <p>Lightshard&nbsp;CSS&nbsp;|&nbsp;Designed&nbsp;by&nbsp;Gigabyte5671&nbsp;&copy;2021</p>
+    </footer>
+  </body>
+  
+  <script src="lib/jquery.min.js"></script>
+  <script> //Navigation Events
+    function navlinks(event){
+      $("navlinks").children().removeClass("active");
+      $(event.target).addClass("active");
+      /* if($(event.target).html() == "Home"){
+        $("title").html("Dazza Coaching");
+      }else{
+        $("title").html($(event.target).html() + " | simple sense");
+      } */
+    }
+    function navlinksDemo(event){
+      $("#navlinksDemo").children().removeClass("active");
+      $(event.target).addClass("active");
+    }
+  </script>
+</html>
