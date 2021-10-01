@@ -405,17 +405,6 @@ section_inner{
   transform: translateY(1px);
 }
 
-left_block .large_internal_link{
-  justify-content: flex-start;
-  width: 100%;
-  min-width: 100%;
-  border-right: unset;
-  border-radius: 25px 0px 0px 25px;
-}
-left_block .large_internal_link:hover{
-  border-right: unset;
-}
-
 
 
 /*================IMPORTANT===============*/
