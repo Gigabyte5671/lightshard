@@ -334,6 +334,7 @@ section_inner{
   width: fit-content;
   height: 30px;
   min-height: 30px;
+  margin: 3px 0px 5px 0px;
   padding: 3px;
   background: none;
   border: 1px solid var(--ls_lightgrey);
