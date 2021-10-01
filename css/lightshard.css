@@ -191,10 +191,7 @@ main{
   padding: 15px 10px 15px 10px;
   overflow: hidden;
 }
-main background{
-  background-color: var(--ls_darkgrey);
-  opacity: 0.5;
-}
+
 left_side{
   position: relative;
   display: flex;
@@ -205,6 +202,10 @@ left_side{
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
+}
+left_side background{
+  background-color: var(--ls_darkgrey);
+  opacity: 0.5;
 }
 left_side_inner{
   display: flex;
@@ -220,6 +221,10 @@ center_side{
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
 }
+center_side background{
+  background-color: var(--ls_darkgrey);
+  opacity: 0.5;
+}
 center_side_inner{
   display: flex;
 }
@@ -233,6 +238,10 @@ right_side{
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
+}
+right_side background{
+  background-color: var(--ls_darkgrey);
+  opacity: 0.5;
 }
 right_side_inner{
   display: flex;
