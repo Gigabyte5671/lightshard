@@ -27,6 +27,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
   margin: 0px;
   color: var(--ls_text_color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
