@@ -386,6 +386,10 @@ section_inner{
   transform: translateY(1px);
 }
 
+left_block .large_internal_link{
+  border-radius: 25px 0px 0px 25px;
+}
+
 
 
 /*================IMPORTANT===============*/
