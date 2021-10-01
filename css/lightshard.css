@@ -52,6 +52,16 @@ background{
   bottom: 0px;
   left: 0px;
 }
+background_image{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1{
   margin: -8px 0px 0px 0px;
 }
