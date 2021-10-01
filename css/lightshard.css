@@ -115,7 +115,7 @@ site_logo img, site_logo site_logo_image{
   margin-left: 5px;
   transition: 0.1s ease all;
 }
-site_logo site_logo_image{
+site_logo .lightshard_logo{
   display: block;
   background-color: var(--ls_lightblue);
   background: linear-gradient(138deg, #FFFFFF 0%, var(--ls_lightblue) 50%, var(--ls_lightblue) 53%, #FFFFFF 50%, #FFFFFF 100%);
