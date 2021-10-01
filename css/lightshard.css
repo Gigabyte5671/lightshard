@@ -209,6 +209,7 @@ left_block background{
 }
 left_block_inner{
   display: flex;
+  flex-direction: column;
 }
 center_block{
   position: relative;
@@ -227,6 +228,7 @@ center_block background{
 }
 center_block_inner{
   display: flex;
+  flex-direction: column;
 }
 right_block{
   position: relative;
@@ -245,6 +247,7 @@ right_block background{
 }
 right_block_inner{
   display: flex;
+  flex-direction: column;
 }
 section{
   display: flex;
