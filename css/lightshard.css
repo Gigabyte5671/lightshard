@@ -390,6 +390,7 @@ section_inner{
 }
 
 left_block .large_internal_link{
+  justify-content: flex-start;
   width: 100%;
   min-width: 100%;
   border-right: unset;
