@@ -185,7 +185,7 @@ navlinks .active:hover::after{
 main{
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   margin: calc(var(--ls_nav_height) + 5px) 3px 5px 3px;
   padding: 15px 10px 15px 10px;
@@ -196,6 +196,48 @@ main{
 main background{
   background-color: var(--ls_darkgrey);
   opacity: 0.5;
+}
+left_side{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 3px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid var(--ls_lightgrey);
+  border-radius: var(--ls_border_radius_medium);
+  overflow: auto;
+}
+left_side_inner{
+  display: flex;
+}
+center_side{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid var(--ls_lightgrey);
+  border-radius: var(--ls_border_radius_medium);
+  overflow: auto;
+}
+center_side_inner{
+  display: flex;
+}
+right_side{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 3px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid var(--ls_lightgrey);
+  border-radius: var(--ls_border_radius_medium);
+  overflow: auto;
+}
+right_side_inner{
+  display: flex;
 }
 section{
   display: flex;
