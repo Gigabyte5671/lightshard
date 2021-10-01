@@ -192,7 +192,7 @@ main{
   overflow: hidden;
 }
 
-left_side{
+left_block{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -203,14 +203,14 @@ left_side{
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
 }
-left_side background{
+left_block background{
   background-color: var(--ls_darkgrey);
   opacity: 0.5;
 }
-left_side_inner{
+left_block_inner{
   display: flex;
 }
-center_side{
+center_block{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -221,14 +221,14 @@ center_side{
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
 }
-center_side background{
+center_block background{
   background-color: var(--ls_darkgrey);
   opacity: 0.5;
 }
-center_side_inner{
+center_block_inner{
   display: flex;
 }
-right_side{
+right_block{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -239,11 +239,11 @@ right_side{
   border-radius: var(--ls_border_radius_medium);
   overflow: auto;
 }
-right_side background{
+right_block background{
   background-color: var(--ls_darkgrey);
   opacity: 0.5;
 }
-right_side_inner{
+right_block_inner{
   display: flex;
 }
 section{
