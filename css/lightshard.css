@@ -304,10 +304,12 @@ section_inner{
 }
 .external_link img{
   margin: 0px 6px 0px 0px;
+  pointer-events: none;
 }
 .external_link p{
   margin: -2px 0px 0px 0px;
   font-weight: bold;
+  pointer-events: none;
 }
 .external_link span{
   width: 0px;
@@ -317,6 +319,7 @@ section_inner{
   margin: -20px 14px 0px 22px;
   background-color: white;
   transition: 0.2s ease all;
+  pointer-events: none;
 }
 .external_link:hover span{
   background-color: var(--ls_lightblue);
@@ -372,6 +375,7 @@ section_inner{
   width: 24px;
   height: 24px;
   margin: 0px 6px 0px 0px;
+  pointer-events: none;
 }
 .large_internal_link img{
   display: block;
@@ -381,6 +385,7 @@ section_inner{
 .internal_link p{
   margin: -2px 6px 0px 0px;
   font-weight: bold;
+  pointer-events: none;
 }
 .internal_link span{
   width: 0px;
@@ -390,6 +395,7 @@ section_inner{
   margin: -20px 10px 0px 3px;
   background-color: white;
   transition: 0.2s ease all;
+  pointer-events: none;
 }
 .internal_link:hover span{
   background-color: var(--ls_lightblue);
