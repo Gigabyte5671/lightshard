@@ -71,6 +71,9 @@ h3{
 p{
   margin: 6px 0px 6px 0px;
 }
+info{
+  font-weight: 100;
+}
 button{
   color: white;
   font-family: inherit;
