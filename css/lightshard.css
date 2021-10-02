@@ -143,6 +143,7 @@ site_logo .lightshard_logo{
 }
 site_logo p{
   display: flex;
+  margin-top: -2px;
   margin-left: 10px;
 }
 navlinks{
@@ -168,6 +169,7 @@ navlinks a{
   color: white;
   text-decoration: none;
   opacity: 0.6;
+  cursor: pointer;
   transition: 0.2s ease opacity;
 }
 navlinks a p{
