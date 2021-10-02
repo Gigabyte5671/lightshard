@@ -30,6 +30,7 @@ body{
   height: 100%;
   margin: 0px;
   color: var(--ls_text_color);
+  font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--ls_darkgrey);
   background: radial-gradient(at top left, var(--ls_darkblue) -100%, var(--ls_darkgrey) 60%);
@@ -72,7 +73,9 @@ p{
   margin: 6px 0px 6px 0px;
 }
 info{
+  font-size: 0.8em;
   font-weight: 100;
+  font-style: italic;
 }
 button{
   color: white;
