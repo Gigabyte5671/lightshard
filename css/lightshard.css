@@ -38,8 +38,7 @@ body{
   background-repeat: no-repeat;
 }
 footer{
-  position: absolute;
-  bottom: 0px;
+  position: relative;
   font-size: 12px;
   font-weight: 100;
   opacity: 0.8;
