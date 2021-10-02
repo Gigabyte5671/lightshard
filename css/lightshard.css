@@ -242,6 +242,7 @@ center_block{
   padding: 15px 10px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
+  transition: 0.2s ease width;
   overflow: auto;
 }
 center_block background{
