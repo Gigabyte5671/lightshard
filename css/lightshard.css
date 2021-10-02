@@ -46,7 +46,7 @@ footer{
 
 /*=============GLOBAL ELEMENTS============*/
 background{
-  position: absolute;
+  position: fixed;
   z-index: 0;
   top: 0px;
   right: 0px;
@@ -54,7 +54,7 @@ background{
   left: 0px;
 }
 background_image{
-  position: absolute;
+  position: fixed;
   z-index: 0;
   top: 0px;
   right: 0px;
