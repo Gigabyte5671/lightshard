@@ -171,7 +171,6 @@ navlinks{
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -437,6 +436,11 @@ section_inner{
   transform-origin: 50% 50%;
   transform: translateY(1px);
 }
+
+
+
+/*================ANIMATIONS==============*/
+
 
 
 
