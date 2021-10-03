@@ -203,6 +203,10 @@ site_logo p{
   display: flex;
   margin-top: -2px;
   margin-left: 10px;
+  opacity: 0;
+}
+site_logo:hover p{
+  opacity: 1;
 }
 navlinks{
   position: relative;
