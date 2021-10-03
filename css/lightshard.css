@@ -280,7 +280,7 @@ left_block{
   padding: 15px 10px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
-  overflow: auto;
+  overflow: hidden;
 }
 left_block background{
   background-color: var(--ls_darkgrey);
@@ -291,6 +291,7 @@ left_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 center_block{
   position: relative;
@@ -302,7 +303,7 @@ center_block{
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   transition: var(--ls_anim_duration_short) ease width;
-  overflow: auto;
+  overflow: hidden;
 }
 center_block background{
   background-color: var(--ls_darkgrey);
@@ -313,6 +314,7 @@ center_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 right_block{
   position: relative;
@@ -323,7 +325,7 @@ right_block{
   padding: 15px 10px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
-  overflow: auto;
+  overflow: hidden;
 }
 right_block background{
   background-color: var(--ls_darkgrey);
@@ -334,6 +336,7 @@ right_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 section{
   display: flex;
