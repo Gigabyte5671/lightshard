@@ -6,6 +6,11 @@
 
   --ls_text_color: white;
 
+  --ls_anim_duration_fast: 0.1s;
+  --ls_anim_duration_short: 0.2s;
+  --ls_anim_duration_medium: 0.7s;
+  --ls_anim_duration_long: 2s;
+
   --ls_border_radius_small: 3px;
   --ls_border_radius_medium: 5px;
   --ls_border_radius_large: 7px;
@@ -129,7 +134,7 @@ site_logo{
   color: white;
   font-size: 32px;
   font-weight: 100;
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
   overflow: hidden;
   user-select: none;
 }
@@ -148,7 +153,7 @@ site_logo a{
   font-size: inherit;
   font-weight: inherit;
   text-decoration: none;
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
   overflow: hidden;
   user-select: none;
 }
@@ -161,7 +166,7 @@ site_logo img, site_logo site_logo_image{
   min-height: calc(var(--ls_nav_height) - 6px);
   max-height: calc(var(--ls_nav_height) - 6px);
   margin-left: 5px;
-  transition: 0.1s ease all;
+  transition: var(--ls_anim_duration_fast) ease all;
 }
 site_logo .lightshard_logo{
   display: block;
@@ -197,7 +202,7 @@ navlinks a{
   text-decoration: none;
   opacity: 0.6;
   cursor: pointer;
-  transition: 0.2s ease opacity;
+  transition: var(--ls_anim_duration_short) ease opacity;
 }
 navlinks a p{
   margin: 0px 0px 3px 0px;
@@ -271,7 +276,7 @@ center_block{
   padding: 15px 10px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
-  transition: 0.2s ease width;
+  transition: var(--ls_anim_duration_short) ease width;
   overflow: auto;
 }
 center_block background{
@@ -333,7 +338,7 @@ section_inner{
   background: none;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_large);
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
 }
 .external_link:hover{
   border: 1px solid white;
@@ -354,7 +359,7 @@ section_inner{
   max-height: 0px;
   margin: -20px 14px 0px 22px;
   background-color: white;
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
   pointer-events: none;
 }
 .external_link:hover span{
@@ -397,7 +402,7 @@ section_inner{
   background: none;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_large);
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
 }
 .internal_link:hover{
   border: 1px solid white;
@@ -430,7 +435,7 @@ section_inner{
   max-height: 0px;
   margin: -20px 10px 0px 3px;
   background-color: white;
-  transition: 0.2s ease all;
+  transition: var(--ls_anim_duration_short) ease all;
   pointer-events: none;
 }
 .internal_link:hover span{
