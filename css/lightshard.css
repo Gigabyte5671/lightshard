@@ -290,9 +290,17 @@ main{
   overflow: hidden;
 }
 
+landing_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 landing_center{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 left_block{
