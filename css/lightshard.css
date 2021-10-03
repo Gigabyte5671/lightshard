@@ -290,6 +290,11 @@ main{
   overflow: hidden;
 }
 
+landing_center{
+  display: flex;
+  flex-direction: column;
+}
+
 left_block{
   position: relative;
   display: flex;
