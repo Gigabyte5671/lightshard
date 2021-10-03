@@ -204,6 +204,7 @@ site_logo p{
   margin-top: -2px;
   margin-left: 10px;
   opacity: 0;
+  transition: var(--ls_anim_duration_short) ease all;
 }
 site_logo:hover p{
   opacity: 1;
