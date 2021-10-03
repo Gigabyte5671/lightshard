@@ -518,7 +518,22 @@ section_inner{
 
 
 /*================ANIMATIONS==============*/
-
+.a_fade_in{
+  animation: var(--anim_duration_medium) ease a_fade_in forwards;
+}
+@keyframes a_fade_in{
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+.a_fade_up{
+  animation: var(--anim_duration_medium) ease a_fade_up forwards;
+}
+@keyframes a_fade_up{
+  0%   {opacity: 0;
+        transform: translateY(70px);}
+  100% {opacity: 1;
+        transform: translateY(0px);}
+}
 
 
 
