@@ -98,6 +98,31 @@ button{
   font-family: inherit;
   cursor: pointer;
 }
+input{
+  width: 300px;
+  max-width: 300px;
+  padding: 5px;
+  border: 1px solid var(--ls_lightgrey);
+  border-radius: var(--ls_border_radius_medium);
+  transition: var(--ls_anim_duration_short) ease all;
+}
+input[type=text]{
+  color: var(--ls_text_color);
+  background: none;
+  box-shadow: 0px 0px 3px black inset;
+}
+input[type=text]::placeholder{
+  color: var(--ls_lightgrey);
+}
+input[type=text]:focus{
+  border-color: white;
+  outline: none;
+}
+input[type=submit]{
+  color: var(--ls_text_color);
+  border: 1px solid var(--ls_lightgrey);
+  background: none;
+}
 
 
 /*=================GENERAL================*/
