@@ -277,7 +277,7 @@ left_block{
   flex-direction: column;
   width: 20%;
   margin: 3px;
-  padding: 15px 10px 15px 10px;
+  padding: 15px 0px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   overflow: hidden;
@@ -291,6 +291,7 @@ left_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
   overflow: auto;
 }
 center_block{
@@ -299,7 +300,7 @@ center_block{
   flex-direction: column;
   width: 100%;
   margin: 3px;
-  padding: 15px 10px 15px 10px;
+  padding: 15px 0px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   transition: var(--ls_anim_duration_short) ease width;
@@ -314,6 +315,7 @@ center_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
   overflow: auto;
 }
 right_block{
@@ -322,7 +324,7 @@ right_block{
   flex-direction: column;
   width: 20%;
   margin: 3px;
-  padding: 15px 10px 15px 10px;
+  padding: 15px 0px 15px 10px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
   overflow: hidden;
@@ -336,6 +338,7 @@ right_block_inner{
   z-index: 1;
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
   overflow: auto;
 }
 section{
