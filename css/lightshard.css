@@ -3,6 +3,8 @@
   --ls_darkgrey: #2D2D2D;
   --ls_lightblue: #4CC2FF;
   --ls_darkblue: #4C69FF;
+  
+  --ls_highlight_white: #FFFFFF30;
 
   --ls_text_color: white;
 
@@ -128,6 +130,12 @@ input[type=submit]{
   color: var(--ls_text_color);
   border: 1px solid var(--ls_lightgrey);
   background: none;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  color: var(--ls_text_color);
+  border: 1px solid white;
+  background: var(--ls_highlight_white);
 }
 
 
