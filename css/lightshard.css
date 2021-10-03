@@ -51,6 +51,11 @@ footer{
   font-weight: 100;
   opacity: 0.8;
 }
+footer a{
+  color: var(--ls_text_color);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*=============GLOBAL ELEMENTS============*/
 background{
@@ -101,6 +106,7 @@ button{
 input{
   width: 300px;
   max-width: 300px;
+  margin: 0px 0px 10px 0px;
   padding: 5px;
   border: 1px solid var(--ls_lightgrey);
   border-radius: var(--ls_border_radius_medium);
