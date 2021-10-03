@@ -454,6 +454,9 @@ section_inner{
 .round{
   border-radius: 50% !important;
 }
+.noborder{
+  border: unset !important;
+}
 .nobefore::before{
   display: none !important;
 }
