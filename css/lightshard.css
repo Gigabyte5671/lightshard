@@ -65,9 +65,14 @@ background_image{
 }
 h1{
   margin: -8px 0px 0px 0px;
+  font-size: 34px;
+}
+h2{
+  font-size: 24px;
 }
 h3{
   margin: -8px 0px 0px 0px;
+  font-size: 20px;
 }
 p{
   margin: 6px 0px 6px 0px;
