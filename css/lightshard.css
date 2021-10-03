@@ -49,6 +49,7 @@ body{
 }
 footer{
   position: relative;
+  margin-bottom: 5px;
   font-size: 12px;
   font-weight: 100;
   opacity: 0.8;
