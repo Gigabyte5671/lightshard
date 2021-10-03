@@ -116,6 +116,7 @@ site_logo{
   width: calc(var(--ls_nav_height) + 10px);
   height: var(--ls_nav_height);
   margin-right: 10px;
+  color: white;
   font-size: 32px;
   font-weight: 100;
   transition: 0.2s ease all;
@@ -124,6 +125,22 @@ site_logo{
 }
 site_logo:hover{
   width: calc(var(--ls_nav_height) + 20ch);
+}
+site_logo a{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  transition: 0.2s ease all;
+  overflow: hidden;
+  user-select: none;
 }
 site_logo img, site_logo site_logo_image{
   position: relative;
