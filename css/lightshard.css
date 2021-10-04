@@ -47,6 +47,21 @@ body{
   background: radial-gradient(at top left, var(--ls_darkblue) -100%, var(--ls_darkgrey) 60%);
   background-repeat: no-repeat;
 }
+site_filter{
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: white;
+  backdrop-filter: contrast(1.5);
+  mix-blend-mode: overlay;
+  opacity: 0.4;
+  pointer-events: none;
+  user-select: none;
+}
 footer{
   position: relative;
   margin-bottom: 5px;
