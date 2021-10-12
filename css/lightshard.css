@@ -33,6 +33,7 @@
 html{
   height: 100%;
   background-color: var(--ls_darkgrey);
+  scroll-behavior: smooth;
 }
 body{
   display: flex;
