@@ -84,6 +84,7 @@ background{
   right: 0px;
   bottom: 0px;
   left: 0px;
+  transition: var(--ls_anim_duration_short) ease all;
 }
 background_image{
   position: absolute;
@@ -95,6 +96,7 @@ background_image{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: var(--ls_anim_duration_short) ease all;
 }
 h1{
   margin: -8px 0px 0px 0px;
