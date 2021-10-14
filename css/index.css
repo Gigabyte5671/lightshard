@@ -1,0 +1,19 @@
+body{
+  background-color: var(--ls_darkgrey);
+  background: radial-gradient(at top left, var(--ls_darkblue) -100%, var(--ls_darkgrey) 60%);
+  background-repeat: no-repeat;
+}
+
+h1{
+  margin: -8px 0px 0px 0px;
+}
+h2{
+  margin: -8px 0px 0px 0px;
+}
+h3{
+  margin: -8px 0px 0px 0px;
+}
+
+section{
+  padding: 0px 0px 0px 10px;
+}
