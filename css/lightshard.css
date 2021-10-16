@@ -546,7 +546,6 @@ article_inner{
   margin-bottom: 100px;
   background-color: var(--ls_darkgrey);
   border-radius: 0px 0px var(--ls_border_radius_large) var(--ls_border_radius_large);
-  box-shadow: 0px 0px 4px black;
 }
 article_inner article_image{
   position: relative;
