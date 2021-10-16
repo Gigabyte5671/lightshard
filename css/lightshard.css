@@ -531,6 +531,7 @@ article{
   border-radius: 0px 0px var(--ls_border_radius_large) var(--ls_border_radius_large);
 }
 article background_image{
+  position: fixed;
   filter: blur(10px);
 }
 article_inner{
