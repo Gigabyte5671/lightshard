@@ -543,6 +543,7 @@ article_inner{
   width: 100%;
   max-width: 1000px;
   padding: calc(var(--ls_nav_height) + 5px) 15px 50px 15px;
+  margin-bottom: 100px;
   background-color: var(--ls_darkgrey);
   border-radius: 0px 0px var(--ls_border_radius_large) var(--ls_border_radius_large);
 }
