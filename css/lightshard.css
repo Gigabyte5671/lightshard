@@ -179,7 +179,7 @@ nav{
   height: var(--ls_nav_height);
   min-height: var(--ls_nav_height);
   max-height: var(--ls_nav_height);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(25px);
   box-shadow: 0px 0px 5px black;
   user-select: none;
 }
