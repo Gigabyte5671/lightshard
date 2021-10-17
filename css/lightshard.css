@@ -382,8 +382,15 @@ landing_subtitle::before{
   position: absolute;
   z-index: 1;
   bottom: 15px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 34px;
+  min-width: 34px;
+  max-width: 34px;
+  height: 34px;
+  min-height: 34px;
+  max-height: 34px;
 }
 .landing_down_arrow img{
   display: block;
