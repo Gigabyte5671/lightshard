@@ -817,6 +817,7 @@ grid_medium card{
 
 /*================ANIMATIONS==============*/
 .a_fade_in{
+  opacity: 0;
   animation: var(--anim_duration_medium) ease a_fade_in forwards;
 }
 @keyframes a_fade_in{
@@ -824,6 +825,8 @@ grid_medium card{
   100% {opacity: 1;}
 }
 .a_fade_up{
+  opacity: 0;
+  transform: translateY(70px);
   animation: var(--anim_duration_medium) ease a_fade_up forwards;
 }
 @keyframes a_fade_up{
