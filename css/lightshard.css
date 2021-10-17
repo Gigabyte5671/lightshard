@@ -2,6 +2,8 @@
   --primary_color: #2D2D2D;
   --accent_color: #4CC2FF;
 
+  --navbar_color: var(--ls_darkgrey);
+
   --ls_lightgrey: #ADADAD;
   --ls_darkgrey: #2D2D2D;
   --ls_lightblue: #4CC2FF;
@@ -186,7 +188,7 @@ nav{
   user-select: none;
 }
 nav background{
-  background-color: var(--primary_color);
+  background-color: var(--navbar_color);
   opacity: 0.5;
 }
 site_logo{
