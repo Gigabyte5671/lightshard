@@ -392,6 +392,23 @@ landing_subtitle::before{
   min-height: 34px;
   max-height: 34px;
 }
+.landing_down_arrow::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: var(--ls_text_color);
+  border-radius: 20%;
+  clip-path: polygon(80% 0%, 100% 0%, 100% 20%, 20% 100%, 0% 100%, 0% 80%);
+  transform: rotate(45deg);
+  transition: var(--ls_anim_duration_fast) linear transform;
+}
+.landing_down_arrow:hover::after{
+  /* clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 0% 100%); Alternate arrow */
+  clip-path: polygon(70% 70%, 70% 8%, 100% 0%, 100% 100%, 0% 100%, 8% 70%);
+  transform: translateY(6px) rotate(45deg);
+}
 .landing_down_arrow img{
   display: block;
   width: 100%;
