@@ -635,6 +635,7 @@ article_inner article_image{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: var(--ls_border_radius_small);
   overflow: hidden;
 }
 
