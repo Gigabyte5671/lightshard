@@ -266,7 +266,7 @@ site_logo p{
 site_logo:hover p{
   opacity: 1;
 }
-navlinks{
+navlinks, sublinks{
   position: relative;
   display: flex;
   flex-direction: row;
@@ -276,7 +276,7 @@ navlinks{
   overflow-x: auto;
   overflow-y: hidden;
 }
-navlinks a, navlinks .back{
+navlinks a, navlinks .back, sublinks a, sublinks .back{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -291,11 +291,11 @@ navlinks a, navlinks .back{
   cursor: pointer;
   transition: var(--ls_anim_duration_short) ease opacity;
 }
-navlinks a p{
+navlinks a p, sublinks a p{
   margin: 0px 0px 3px 0px;
   pointer-events: none;
 }
-navlinks a::after{
+navlinks a::after, sublinks a::after{
   content: "";
   display: block;
   width: var(--ls_indicator_min);
@@ -305,28 +305,28 @@ navlinks a::after{
   transition: 0.12s ease all;
   pointer-events: none;
 }
-navlinks a:hover{
+navlinks a:hover, sublinks a:hover{
   opacity: 1;
 }
-navlinks a:hover::after{
+navlinks a:hover::after, sublinks a:hover::after{
   background-color: var(--ls_lightgrey);
 }
-navlinks .active{
+navlinks .active, sublinks .active{
   opacity: 1;
 }
-navlinks .active::after{
+navlinks .active::after, sublinks .active::after{
   width: var(--ls_indicator_max);
   background-color: var(--accent_color);
 }
-navlinks .active:hover::after{
+navlinks .active:hover::after, sublinks .active:hover::after{
   background-color: var(--accent_color);
 }
-navlinks .back{
+navlinks .back, sublinks .back{
   width: 40px;
   height: 40px;
   margin-left: unset;
 }
-navlinks .back::before{
+navlinks .back::before, sublinks .back::before{
   content: "";
   position: absolute;
   display: block;
@@ -338,10 +338,10 @@ navlinks .back::before{
   transform: rotate(135deg);
   transition: var(--ls_anim_duration_fast) linear transform;
 }
-navlinks .back:hover::before{
+navlinks .back:hover::before, sublinks .back:hover::before{
   background-color: var(--ls_text_color);
 }
-navlinks .back::after{
+navlinks .back::after, sublinks .back::after{
   content: "";
   position: absolute;
   display: block;
@@ -353,7 +353,7 @@ navlinks .back::after{
   transform: rotate(45deg);
   transition: var(--ls_anim_duration_fast) linear transform;
 }
-navlinks .back:hover::after{
+navlinks .back:hover::after, sublinks .back:hover::after{
   background-color: var(--ls_text_color);
 }
 
