@@ -276,7 +276,7 @@ navlinks{
   overflow-x: auto;
   overflow-y: hidden;
 }
-navlinks a, navlinks div{
+navlinks a, navlinks .back{
   position: relative;
   display: flex;
   flex-direction: column;
