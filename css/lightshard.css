@@ -347,6 +347,7 @@ navlinks .back::after{
   display: block;
   width: 14px;
   height: 14px;
+  background-color: #757575;
   border-radius: 20%;
   clip-path: polygon(80% 0%, 100% 0%, 100% 20%, 20% 100%, 0% 100%, 0% 80%);
   transform: rotate(45deg);
