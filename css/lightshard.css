@@ -321,6 +321,40 @@ navlinks .active::after{
 navlinks .active:hover::after{
   background-color: var(--accent_color);
 }
+navlinks .back{
+  width: 40px;
+  height: 40px;
+  margin-left: unset;
+}
+navlinks .back::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #757575;
+  border-radius: 20%;
+  clip-path: polygon(70% 70%, 70% 8%, 100% 0%, 100% 100%, 0% 100%, 8% 70%);
+  transform: rotate(135deg);
+  transition: var(--ls_anim_duration_fast) linear transform;
+}
+navlinks .back:hover::before{
+  background-color: var(--ls_text_color);
+}
+navlinks .back::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 20%;
+  clip-path: polygon(80% 0%, 100% 0%, 100% 20%, 20% 100%, 0% 100%, 0% 80%);
+  transform: rotate(45deg);
+  transition: var(--ls_anim_duration_fast) linear transform;
+}
+navlinks .back:hover::after{
+  background-color: var(--ls_text_color);
+}
 
 landing{
   position: relative;
