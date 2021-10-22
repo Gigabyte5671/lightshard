@@ -907,7 +907,7 @@ grid_medium card{
 
 /*================ANIMATIONS==============*/
 .a_fade_in{
-  opacity: 0;
+  /* opacity: 0; */
   animation: var(--anim_duration_medium) ease a_fade_in forwards;
 }
 @keyframes a_fade_in{
