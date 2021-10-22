@@ -159,6 +159,7 @@ textarea{
   color: var(--ls_text_color);
   text-shadow: 1px 1px 1px black;
   background: none;
+  border-radius: var(--ls_border_radius_medium);
   box-shadow: 0px 0px 3px black inset;
 }
 textarea:focus{
