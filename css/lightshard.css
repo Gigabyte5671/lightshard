@@ -625,6 +625,7 @@ article_inner{
   margin-bottom: 100px;
   background-color: var(--primary_color);
   border-radius: 0px 0px var(--ls_border_radius_large) var(--ls_border_radius_large);
+  transition: var(--ls_anim_duration_short) ease all;
 }
 article_image{
   position: relative;
